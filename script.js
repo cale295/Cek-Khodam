@@ -2,23 +2,12 @@ const khodamKeren = [
     "Naga Api",
     "Naga Air",
     "Harimau Putih",
-    "Burung Garuda",
-    "Serigala Hitam",
-    "Singa Emas",
     "Elang Perak",
     "Kuda Pemberani",
     "Lembuswana",
     "Macan Kumbang",
     "Raja Ular",
-    "Harimau Emas",
-    "Burung Rajawali",
-    "Singa Hitam",
-    "Gajah Perkasa",
-    "Elang Emas",
-    "Kuda Perak",
-    "Rusa Raksasa",
     "Macan Putih",
-    "Serigala Putih"
   ];
   const khodamJelek = [
     "Sendal Goreng",
@@ -41,7 +30,9 @@ const khodamKeren = [
     "Sendal Jepit",
     "Tikus Kantor",
     "Senter",
-    "Es Krim"
+    "Es Krim",
+    "Kaos Kaki",
+    "Permen Karet"
   ];
   
   const usernameInput = document.getElementById('username');
@@ -57,7 +48,7 @@ const khodamKeren = [
         const allKhodamNames = [...khodamKeren,...khodamJelek];
         const randomIndex = Math.floor(Math.random() * allKhodamNames.length);
         const selectedKhodam = allKhodamNames[randomIndex];
-        const message = khodamKeren.includes(selectedKhodam)? 'Anjay Keren Juga Khodam Lu' : 'WKWKW Khodam Lu Gitu Amat';
+        const message = khodamKeren.includes(selectedKhodam)? 'Anjay Keren Juga Khodam Lu' : 'WKWKWWK Khodam Lu Gitu Amat';
         resultDiv.innerHTML = `
           <h2 class="text-2xl font-bold text-gray-800">${userName} Khodam Lu</h2>
           <p class="text-lg text-black font-mono"><span class="font-bold text-4xl">✦${selectedKhodam}✦</span></p>
