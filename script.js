@@ -58,6 +58,6 @@ const khodamKeren = [
         checkKhodamButton.textContent = 'Cek';
       }, 2000);
     } else {
-      alert('Nama Masukin.');
+      alert('Ngga Ada Nama Gimana Nerawangnya😌');
     }
   });
