@@ -8,8 +8,10 @@ const khodamKeren = [
     "Macan Kumbang",
     "Raja Ular",
     "Macan Putih",
+    "Prabu Siliwangi"
   ];
   const khodamJelek = [
+    "Sambo Global",
     "Sendal Goreng",
     "Ayam Penyet",
     "Sapu Terbang",
